@@ -1,0 +1,7 @@
+import joblib
+
+# Load the model
+model = joblib.load('burnout_predictor_model.pkl')
+
+print("✅ Model loaded successfully!")
+print("Model type:", type(model))
